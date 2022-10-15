@@ -1,0 +1,98 @@
+for start mysql command line firstly enter password :root
+daily when we close mysql command line enter "exit"
+1)
+for show database enter "show databases;"
+2)
+for create new database or schema enter "create database <database name>"
+3)
+for use databese enter "use <database name>"
+4)
+for create table
+create table <table name> (insert the table stucture)
+
+ex:
+create table customer(custid int,custname vharchar(30),custaddress varchar(255),custno int(10),custcity varchar(30),custorder int(5));
+
+5)
+check table structure "describe tablenme"
+
+6)
+for insert the values in table enter 
+"INSERT INTO Tablename
+VALUES(1,"pradip","shirpur",10,"dhule",5);
+
+7)
+show databases;         \\operations
+create database[db_name];
+use [db name];
+drop database[db-name];
+
+
+create table [table name](col1, col2, col3, col4,......);
+every col called attribute.
+eg: user table
+
+show table;
+desc [tb_name];
+drop table [table_name];
+
+alter table [old table_name] rename to [new name];
+truncate table [table_name];
+
+insert into [table_name](id,name,city)values(12,'durgesh','delhi');
+insert into table_name values(12,'ankit','kanpur');
+
+alter table [table_name]add col1;    \\add col
+update [table­_name]set col= value , col= value where col=value;
+
+delete from[table_name] where col=value;
+
+where: condition
+*    : all col
+and  : both tru then show
+or   : any one tru then show
+distinct: differnt differnt
+in(id1,id2....);
+select * from student where id in(id1,id2,....);
+limit 2 offset2;
+order by;  name ,decs 
+_ :represent single charactor
+% : zeo one or more than one charactor
+
+min ,max, count, avg, sum ..
+
+foreign key and joins ,like operetor
+select
+     ==>
+
+
+
+
+
+
+
+
+
+
+
+
+
+\! cls    ==>     \\\for clear sceen
+
+
+
+ 
+like:
+%: zero or multiple character
+_:represent single or  one character 
+\\\ms acsess mey    "%==*",    "_==?"
+	
+
+as "col  name"  :aliaze
+select * from [table name] where [col name]= [name];
+
+
+
+
+first create 2 to 3 tables for employee and order
+iinsert data into that table 
